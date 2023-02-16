@@ -1,0 +1,58 @@
+body{
+	font-family: sans-serif;
+	background-image: url(1671465419512.jpg);
+	background-size: cover;
+}
+.Sign{
+	width:300px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	background: #F5FCFF;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+
+.Sign-in{
+	background: #3CDFFF;
+	color: #fff;
+	width: 60%;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	cursor: hand;
+}
+
+.Sign h1{
+	color: #00bfff;
+	margin-bottom: 30px;
+}
+
+.Login{
+	width:300px;
+	box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+	background: #F5FCFF;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+
+.Log-in{
+	background: #3CDFFF;
+	color: #fff;
+	width: 60%;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	margin: 10px;
+	border: none;
+	outline: none;
+	cursor: hand;
+}
+
+.Login h1{
+	color: #00bfff;
+	margin-bottom: 30px;
+}

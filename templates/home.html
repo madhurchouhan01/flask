@@ -1,0 +1,92 @@
+
+
+<!doctype html>
+<html lang="en" dir="ltr">
+ 
+<head>
+  <title>Railway Ticket Reservation</title>
+  <h1>Railway Ticket Reservation</h1>
+  {% with messages=get_flashed_messages()%}
+  {% if messages %}
+  {% for msg in messages %}
+   <p>{{msg}}</p>
+  {% endfor %}
+  {% endif %}
+  {% endwith %}
+  <img src="/static/train.jpg" alt="Image Not Found" height="400px" width="1500px"> 
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-DOXMLfHhQkvFFp+rWTZwVlPVqdIhpDVYT9csOnHSgWQWPX0v5MCGtjCJbY6ERspU" crossorigin="anonymous">
+
+ 
+</head>
+
+<body>
+ 
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mb-lg-10">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/home" title="Click to Refresh the pageS">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="http://127.0.0.1:5000/about">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+              <li><a class="dropdown-item" href="#">Cancellation & Refunds</a></li>
+              <li><a class="dropdown-item" href="http://127.0.0.1:5000/FAQs">FAQs</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Trains" aria-label="Search Trains">
+          <button class="btn btn-outline-success" type="submit">Search Trains</button>
+
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <div class="container" <select class="form-select" aria-label="Default select example">
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="From Indore">
+      <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+        aria-expanded="false">To </button>
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="http://127.0.0.1:5000/ranthambore">Jodhpur</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:5000/malwa">Jammu</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:5000/chandigarh">Chandigarh</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:5000/panchvalley">Chhindwara</a></li>
+        <li><a class="dropdown-item" href="http://127.0.0.1:5000/shipra">Howrah</a></li>
+
+      </ul>
+    </div>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
